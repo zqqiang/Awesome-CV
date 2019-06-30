@@ -1,7 +1,6 @@
 .PHONY: examples
 
 CC = xelatex
-ELLA_DIR = ella
 EXAMPLES_DIR = examples
 RESUME_DIR = examples/resume
 CV_DIR = examples/cv
@@ -20,4 +19,4 @@ coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf $(ELLA_DIR)/*.pdf
+	rm -rf $(EXAMPLES_DIR)/*.pdf
