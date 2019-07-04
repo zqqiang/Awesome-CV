@@ -36,7 +36,7 @@ You can see [PDF](https://github.com/zqqiang/Awesome-CV/blob/master/data-analyst
 
 |                                      Page. 1                                      |                                      Page. 2                                      |
 | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-| [![Résumé]()](https://github.com/zqqiang/Awesome-CV/blob/master/data-analyst.pdf) | [![Résumé]()](https://github.com/zqqiang/Awesome-CV/blob/master/data-analyst.pdf) |
+| [![Résumé]()](https://github.com/zqqiang/Awesome-CV/blob/master/data-analyst.png) | [![Résumé]()](https://github.com/zqqiang/Awesome-CV/blob/master/data-analyst.png) |
 
 #### Cover Letter
 
@@ -44,7 +44,7 @@ You can see [PDF](https://github.com/zqqiang/Awesome-CV/blob/master/coverletter.
 
 |                                          Without Sections                                           |                                          With Sections                                          |
 | :-------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
-| [![Cover Letter(Traditional)]()](https://github.com/zqqiang/Awesome-CV/blob/master/coverletter.pdf) | [![Cover Letter(Awesome)]()](https://github.com/zqqiang/Awesome-CV/blob/master/coverletter.pdf) |
+| [![Cover Letter(Traditional)]()](https://github.com/zqqiang/Awesome-CV/blob/master/coverletter.png) | [![Cover Letter(Awesome)]()](https://github.com/zqqiang/Awesome-CV/blob/master/coverletter.png) |
 
 ## How to Use
 
