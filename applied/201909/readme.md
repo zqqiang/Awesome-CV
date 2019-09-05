@@ -7,4 +7,6 @@
 
 ## 2019-09-05
 
+1. [Data Analyst - Client of emergiTEL](../../archive/clientOfEmergiTEL/jd.md)
+1. [Junior Business Intelligence Analyst - Kiwi Collection](../../archive/kiwiCollection/juniorBusinessIntelligenceAnalyst.md)
 1. [Financial Analyst - STEMCELL Technologies](../../archive/stemcell/FinancialAnalyst/jd.md)
