@@ -15,4 +15,4 @@
 
 1. [Financial Analyst (3 month Contract) - Best Buy Canada](../../archive/bestbuy/FinancialAnalyst-3-month/jd.md)
 1. [Data Analyst - Motion Canada](../../archive/motionCanada/DataAnalyst/jd.md)
-1. [Data Analyst - Sunnyfuture Group](../../archive/sunnyfutureGroup/DataAnalyst/jd.md)
+1. [Financial Analyst - Sunnyfuture Group](../../archive/sunnyfutureGroup/FinancialAnalyst/jd.md)

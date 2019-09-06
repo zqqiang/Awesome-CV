@@ -21,6 +21,7 @@ Adept at queries, report writing and presenting findings
 Knowledge of Lean systems and value stream mapping
 Fluent with one or more software development languages
 Experience with web development and agile methodologies and processes
+
 Job Type: Full-time
 
 Language:
