@@ -10,3 +10,9 @@
 1. [Data Analyst - Client of emergiTEL](../../archive/clientOfEmergiTEL/jd.md)
 1. [Junior Business Intelligence Analyst - Kiwi Collection](../../archive/kiwiCollection/juniorBusinessIntelligenceAnalyst.md)
 1. [Financial Analyst - STEMCELL Technologies](../../archive/stemcell/FinancialAnalyst/jd.md)
+
+## 2019-09-06
+
+1. [Financial Analyst (3 month Contract) - Best Buy Canada](../../archive/bestbuy/FinancialAnalyst-3-month/jd.md)
+1. [Data Analyst - Motion Canada](../../archive/motionCanada/DataAnalyst/jd.md)
+1. [Data Analyst - Sunnyfuture Group](../../archive/sunnyfutureGroup/DataAnalyst/jd.md)
