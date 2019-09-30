@@ -22,7 +22,3 @@
 1. [Data & Reporting Aanlyst - Argus Controls](../../archive/argusControls/data-reporting-analyst.md)
 1. [Business Analyst - Ledcor](../../archive/ledcor/business-analyst.md)
 1. [Entry-Level Data Processor (Data Entry)](../../archive/benchAccounting/entryLevelDataProcesser/jd.md)
-
-## 2019-09-10
-
-1. []()
