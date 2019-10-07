@@ -1,0 +1,349 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{profile}
+\name{Ella}{Fan}
+\position{Financial Analyst}
+
+\mobile{(+1) 604-446-8039}
+\email{ruijia.ella.fan@gmail.com}
+\linkedin{https://www.linkedin.com/in/ruijiafan/}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+\quote{``Dedicated and detail-oriented Financial Analyst, lead to team's success."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Ella Fan~~~·~~~Résumé}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+% \input{ella/summary.tex}
+% \input{ella/skills.tex}
+% \input{ella/experience.tex}
+% \input{ella/certificates.tex}
+% \input{ella/education.tex}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Summary}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvparagraph}
+
+%---------------------------------------------------------
+Thorough and meticulous Financial Analyst passionate about helping businesses succeed.
+5 years as a finance professional, with 3 years in financial analysis.
+Experienced with financial modelling using excel and conducting quantitative and qualitative data analysis using SQL, R, Python.
+Highly educated, recipient of a Bachelor's degree and professional certification in finance and data analysis. 
+Focused on continual professional and personal growth, including the improvement of business and economic knowledge.
+Former Credit Analyst and CFA level III Candidate.
+\end{cvparagraph}
+
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Skills}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+
+%---------------------------------------------------------
+\cvskill
+{Financial} % Category
+{
+  \begin{cvitems}
+    \item {Statistical analysis, Cost accounting, Corporate finance knowledge, Financial modeling, Budgeting, Expense tracking}
+    \item {Risk management, Accounting, Economics, Business performance analysis, Trend analysis, Asset management}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+  \cvskill
+    {Computer Science} % Category
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {Advanced Microsoft Excel functions, Tableau, Python (Pandas, Matplotlib, NumPy, SciPy), R (RStudio), MS Project}
+        \item {Office Automation (OA), Customer Relationship Management (CRM)}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cvskill
+    {Soft Skills} % Category
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {Logic and analysis, Problem-solving and troubleshooting, Pattern and trend identification, Efficiency}
+        \item {Clear writing and report writing, Critical thinking, Attention to detail, Decision-making,  Teamwork \& collaboration}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cvskills}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Work Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+\cventry
+{Business Analyst} % Job title
+{ITalkBB Canada Inc.} % Organization
+{Richmond, BC} % Location
+{Jul. 2019 - Now} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Created pivot tables and charts to achieve analytical goals.}
+    \item {Designed, recorded and executed macros to automate data entry inputs.}
+    \item {Increased customer satisfaction rates through CRM system for marketing team.}
+    \item {Utilized an OA system to gather data for work orders and coorinated plans for 30 employees.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
+{Credit Analyst} % Job title
+{Volkswagen Finance.} % Organization
+{} % Location
+{Jan. 2013 - Jun. 2015} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Analyzed financial data (budgets and income) with consideration for the company's goals.}
+    \item {Improved existing and created new products to push the company's finance results}
+    \item {Completed dealer's financial analysis and converted data into actionable insights.}
+    \item {Used SQL \& Advanced Excel to track and analyze sales, industry rankings and payment records data.}
+    \item {Developed key risk indicators to monitor financial risks and decreased costs by 8\%.}
+    \item {Utilized Tableau, and SSRS dashboard/visualization tools for data intelligence and analysis.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
+{Investment Accounting} % Job title
+{Heng An Standard Life Insurance Co.} % Organization
+{} % Location
+{Sep. 2011 - Dec. 2012} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Synthesized and analyzed process bonds, funds, assisted in analysis of investment products.}
+    \item {Responsible for investment valuation, calculated investment price and assets.}
+    \item {Generated reports, charts, and tables on cash flow statement, balance sheet, income statement.}
+    \item {Tracked actual financial results, compared and corrected data in regards to transactions.}
+    \item {Recommend, developed rules and projects that improving team competitive position.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
+{Account Manager} % Job title
+{Shenzhen Development Bank.} % Organization
+{} % Location
+{Jul. 2008 - Aug. 2011} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Audited client financial needs, wrote investigation reports, complete credit rating.}
+    \item {Collected and provided necessary info for credit decisions, solved problems found in vetting.}
+    \item {Communicated and coordinated project discussions and inspected the assessment for credit risk.}
+    \item {Responsible for loan management work, regular loans, tracked usage per customer.}
+    \item {Managed 3 big projects that had over 30 enterprise customer loans.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Certificates}
+
+
+%-------------------------------------------------------------------------------
+%	SUBSECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsubsection{CFA Level 3 Candidate}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvhonors}
+
+%---------------------------------------------------------
+  \cvhonor
+    {CFA Level II Passed} % Award
+    {} % Event
+    {} % Location
+    {2014} % Date(s)
+
+%---------------------------------------------------------
+\end{cvhonors}
+
+
+%-------------------------------------------------------------------------------
+%	SUBSECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsubsection{SAS Advanced}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvhonors}
+
+%---------------------------------------------------------
+  \cvhonor
+    {SAS Certified Base/Advanced Programmer for SAS 9} % Award
+    {} % Event
+    {} % Location
+    {2016} % Date(s)
+
+%---------------------------------------------------------
+\end{cvhonors}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Applied Data Analytics with Distinction: Certificate, GPA 88\%} % Degree
+    {BCIT(British Columbia Institute of Technology)} % Institution
+    {Vancouver, BC} % Location
+    {Jun. 2016 - Jul. 2019} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {COMP 2256 - Visual Analytics for Business Intelligence with Tableau.}
+        \item {MATH 3060 - Advanced Statistical Techniques for Data Analytics (Grade: A+ 96).}
+        \item {COMP 3838 - Data Warehouse Foundations for Business Intelligence (Grade: A 92).}
+        \item {COMP 4679 - Business Intelligence with SSRS, SQL Server Reporting Services (Grade: A 93).}
+        \item {COMP 4681 - Business Intelligence with SSAS, SQL Server Analysis Services (Grade: A+ 97).}
+        \item {COMP 1288 - IT Project Management. MATH 1060 - Statistics for Data Analysis.}
+        \item {COMP 3704 - Applied IT Security Fundamentals. COMP 1630 - Relational Database Design and SQL.}
+        \item {COMP 3840 - Introduction to Big Data and Hadoop. COMP 2831 - Business Analysis and Systems Design.}
+        \item {COMP 3839 - Data Quality Improvement (Grade: A 92). COMP 2362 - Microsoft Excel Advanced (Grade: A 93).}
+        \item {COMP 2854 - Data Analytics Fundamentals (Grade: A+ 96). COMP 4254 - Advanced Topics in Data Analytics (Grade: A 91).}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {B.S. in Finance} % Degree
+    {NKU(Nankai University)} % Institution
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
